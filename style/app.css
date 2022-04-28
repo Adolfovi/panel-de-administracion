@@ -494,6 +494,13 @@ header {
   justify-content: flex-end;
 }
 
+.filter-main {
+  display: flex;
+  justify-content: center;
+  background-color: #afafaf;
+  padding: 0.8rem;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -538,7 +545,8 @@ header {
   top: 0px;
 }
 
-#nav-icon3 span:nth-child(2), #nav-icon3 span:nth-child(3) {
+#nav-icon3 span:nth-child(2),
+#nav-icon3 span:nth-child(3) {
   top: 18px;
 }
 
