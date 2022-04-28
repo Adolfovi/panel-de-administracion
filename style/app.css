@@ -423,6 +423,11 @@ a:hover, a:focus {
   outline-offset: 0;
 }
 
+header {
+  background-color: #000000;
+  padding: 1rem;
+}
+
 .desktop-five-columns {
   display: flex;
   justify-content: space-between;
@@ -481,7 +486,12 @@ a:hover, a:focus {
 }
 
 .header-main-title h2 {
-  color: black;
+  color: white;
+}
+
+.header-main-title-hamburger {
+  display: flex;
+  justify-content: flex-end;
 }
 
 * {
@@ -493,7 +503,6 @@ a:hover, a:focus {
   width: 60px;
   height: 45px;
   position: relative;
-  margin: 50px auto;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
@@ -510,7 +519,7 @@ a:hover, a:focus {
   position: absolute;
   height: 9px;
   width: 100%;
-  background: black;
+  background: white;
   border-radius: 9px;
   opacity: 1;
   left: 0;
