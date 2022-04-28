@@ -434,7 +434,7 @@ header {
   width: 100%;
 }
 .desktop-five-columns > .column {
-  width: 18%;
+  width: 20%;
 }
 
 .desktop-four-columns {
@@ -443,7 +443,7 @@ header {
   width: 100%;
 }
 .desktop-four-columns > .column {
-  width: 22%;
+  width: 25%;
 }
 
 .desktop-three-columns {
@@ -461,7 +461,7 @@ header {
   width: 100%;
 }
 .desktop-two-columns > .column {
-  width: 48%;
+  width: 50%;
 }
 
 .desktop-two-columns-aside {
@@ -473,7 +473,7 @@ header {
   width: 20%;
 }
 .desktop-two-columns-aside > .column-main {
-  width: 75%;
+  width: 80%;
 }
 
 .desktop-one-column {
@@ -492,6 +492,26 @@ header {
 .header-main-title-hamburger {
   display: flex;
   justify-content: flex-end;
+}
+
+.elements-configuration {
+  padding: 0.5rem;
+}
+
+.elements-configuration-element {
+  background-color: #dddddd;
+  padding: 0.2rem;
+  width: 50%;
+  margin-bottom: 1rem;
+}
+
+.elements-configuration-element-subelement {
+  display: flex;
+}
+
+.elements-configuration-element-subelement h4 {
+  color: black;
+  font-weight: bolder;
 }
 
 .filter-main {
