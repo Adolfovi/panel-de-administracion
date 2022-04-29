@@ -14,7 +14,7 @@
 .elements-configuration-element {
     background-color: #dddddd;
     padding: 0.2rem;
-    width: 50%;
+    width: 70%;
     margin-bottom: 1rem;
 }
 
@@ -37,6 +37,14 @@
 * {
     margin: 0;
     padding: 0;
+}
+
+.pencil {
+
+}
+
+.thrash {
+
 }
 
 
@@ -73,8 +81,6 @@
     -o-transition: .25s ease-in-out;
     transition: .25s ease-in-out;
 }
-
-/* Icon 3 */
 
 #nav-icon3 span:nth-child(1) {
     top: 0px;
