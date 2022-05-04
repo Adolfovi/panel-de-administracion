@@ -537,7 +537,8 @@ header {
 }
 
 .form-sections-element :hover {
-  background-color: purple;
+  background-color: #000000;
+  color: white;
 }
 
 .administration-editor-menu-nav {
@@ -545,8 +546,8 @@ header {
 }
 
 #nav-icon3 {
-  width: 60px;
-  height: 45px;
+  width: 64px;
+  height: 46px;
   position: relative;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
