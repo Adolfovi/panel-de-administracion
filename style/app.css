@@ -526,12 +526,22 @@ header {
   padding: 0;
 }
 
-.pencil {
+.form-sections {
   display: flex;
+  justify-content: flex-start;
+  padding: 0.5rem 0rem 0.4rem 0rem;
 }
 
-.thrash {
-  display: flex;
+.form-sections-element span {
+  padding: 0.4rem;
+}
+
+.form-sections-element :hover {
+  background-color: purple;
+}
+
+.administration-editor-menu-nav {
+  background-color: #8d8d8d;
 }
 
 #nav-icon3 {
