@@ -712,6 +712,10 @@ header {
     width: 100%;
     flex-direction: column;
   }
+
+  .elements-configuration-element {
+    width: 16rem;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
