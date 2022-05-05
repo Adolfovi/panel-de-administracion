@@ -699,4 +699,23 @@ header {
   color: white;
 }
 
+@media only screen and (max-width: 1002px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .desktop-two-columns-aside {
+    width: 100%;
+    flex-direction: column;
+  }
+  .desktop-two-columns-aside .column-main {
+    width: 100%;
+    flex-direction: column;
+  }
+  .desktop-two-columns-aside .column-aside {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
 /*# sourceMappingURL=app.css.map */

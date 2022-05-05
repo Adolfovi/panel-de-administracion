@@ -115,7 +115,7 @@
     color: black;
 }
 
-.form-content-data-name-result input:focus{
+.form-content-data-name-result input:focus {
     background-color: #b3b3b3;
     color: black;
 }
@@ -217,3 +217,28 @@
 
 .thrash {}
 
+
+// CÓDIGO RESPONSIVE
+
+@media only screen and (max-width: 1002px) {
+    body {
+        background-color: lightblue;
+    }
+
+    .desktop-two-columns-aside {
+        width: 100%;
+        flex-direction: column;
+
+        .column-main {
+            width: 100%;
+            flex-direction: column;
+        }
+
+        .column-aside {
+            width: 100%;
+            flex-direction: column;
+        }
+
+    }
+
+}
