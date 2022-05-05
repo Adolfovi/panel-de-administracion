@@ -684,4 +684,19 @@ header {
   left: 50%;
 }
 
+.form-content-data-description-result textarea:focus {
+  background-color: #b3b3b3;
+  color: black;
+}
+
+.form-content-data-name-result input:focus {
+  background-color: #b3b3b3;
+  color: black;
+}
+
+::selection {
+  background-color: black;
+  color: white;
+}
+
 /*# sourceMappingURL=app.css.map */
