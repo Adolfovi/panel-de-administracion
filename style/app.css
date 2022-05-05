@@ -496,6 +496,7 @@ header {
 
 .elements-configuration {
   padding: 0.5rem;
+  margin: 0.6rem;
 }
 
 .elements-configuration-element {
@@ -521,6 +522,22 @@ header {
   padding: 0.8rem;
 }
 
+.form-category {
+  margin: 1rem;
+}
+
+.form-category-title h3 {
+  color: black;
+}
+
+.form-name {
+  margin: 1rem;
+}
+
+.form-name-title h3 {
+  color: black;
+}
+
 .form-category-result select {
   width: 100%;
 }
@@ -534,7 +551,7 @@ header {
   justify-content: flex-start;
   padding: 0.4rem 0rem 0.4rem 0rem;
   background-color: gray;
-  margin-top: 0.6rem;
+  margin: 1rem;
 }
 
 .form-language-element span {
@@ -544,6 +561,26 @@ header {
 .form-language-element :hover {
   background-color: #000000;
   color: white;
+}
+
+.form-content-data-name-title h3 {
+  color: black;
+}
+
+.form-content-data {
+  margin: 1rem;
+}
+
+.form-content-data-description {
+  margin-top: 1rem;
+}
+
+.form-content-data-description-title h3 {
+  color: black;
+}
+
+.form-content-data-name-result input {
+  width: 100%;
 }
 
 * {
@@ -564,6 +601,10 @@ header {
 .form-sections-element :hover {
   background-color: #000000;
   color: white;
+}
+
+.administration-editor {
+  margin: 1rem;
 }
 
 .administration-editor-menu-nav {
