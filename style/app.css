@@ -521,6 +521,31 @@ header {
   padding: 0.8rem;
 }
 
+.form-category-result select {
+  width: 100%;
+}
+
+.form-name-result select {
+  width: 100%;
+}
+
+.form-language {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0.4rem 0rem 0.4rem 0rem;
+  background-color: gray;
+  margin-top: 0.6rem;
+}
+
+.form-language-element span {
+  padding: 0.4rem;
+}
+
+.form-language-element :hover {
+  background-color: #000000;
+  color: white;
+}
+
 * {
   margin: 0;
   padding: 0;
