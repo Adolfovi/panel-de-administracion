@@ -13,5 +13,3 @@ ClassicEditor.create(document.querySelector('.ckeditor'))
         console.error('There was a problem initializing the editor.', error);
     });
 
-
-    

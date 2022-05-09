@@ -376,7 +376,7 @@ video {
   max-width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6, a, p {
+h1, h2, h3, h4, h5, h6, a {
   color: hsl(0deg, 0%, 100%);
 }
 
@@ -576,6 +576,10 @@ header {
 
 .form-content-data-description-title h3 {
   color: black;
+}
+
+.form-content-data-description-title {
+  margin-bottom: 1rem;
 }
 
 .form-content-data-name-result input {
