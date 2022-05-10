@@ -376,8 +376,8 @@ video {
   max-width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: hsl(0deg, 0%, 100%);
+h1, h2, h3, h4, h5, h6, p, a {
+  color: black;
 }
 
 h1, h2, h3, h4 {
