@@ -222,27 +222,3 @@
 
 .thrash {}
 
-
-// CÓDIGO RESPONSIVE
-
-@media only screen and (max-width: 1002px) {
-
-    .desktop-two-columns-aside {
-        width: 100%;
-        flex-direction: column;
-
-        .column-main {
-            width: 100%;
-            flex-direction: column;
-        }
-
-        .column-aside {
-            width: 100%;
-            flex-direction: column;
-        }
-
-    }
-    .elements-configuration-element {
-        width: 16rem;
-    }
-}
