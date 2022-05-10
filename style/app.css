@@ -626,8 +626,8 @@ header {
 }
 
 #nav-icon3 {
-  width: 64px;
-  height: 46px;
+  width: 50px;
+  height: 0px;
   position: relative;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -643,7 +643,7 @@ header {
 #nav-icon3 span {
   display: block;
   position: absolute;
-  height: 9px;
+  height: 4px;
   width: 100%;
   background: white;
   border-radius: 9px;
@@ -665,11 +665,11 @@ header {
 
 #nav-icon3 span:nth-child(2),
 #nav-icon3 span:nth-child(3) {
-  top: 18px;
+  top: 14px;
 }
 
 #nav-icon3 span:nth-child(4) {
-  top: 36px;
+  top: 28px;
 }
 
 #nav-icon3.open span:nth-child(1) {
