@@ -13,3 +13,8 @@ ClassicEditor.create(document.querySelector('.ckeditor'))
         console.error('There was a problem initializing the editor.', error);
     });
 
+if (window.matchMedia("(max-width: 1025px)").matches) {
+    document.querySelector('.responsive').href = "style/app-mobile.css";
+} else {
+    document.querySelector('.responsive').href = "style/app.css";
+}
